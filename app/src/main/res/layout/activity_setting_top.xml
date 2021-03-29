@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingTopActivity">
+    <TextView
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_ios_24"
+        android:text="@string/setting"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="#1EDBF9"
+        android:paddingBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+    </TextView>
+
+</LinearLayout>
