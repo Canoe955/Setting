@@ -14,7 +14,7 @@
         android:background="#1EDBF9"
         android:paddingBottom="1dp"
         android:layout_width="match_parent"
-        android:layout_height="48dp">
+        android:layout_height="wrap_content">
     </TextView>
 
 </LinearLayout>

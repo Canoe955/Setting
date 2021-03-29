@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Setting</string>
     <string name="setting">设置</string>
+    <string name="username">账号管理</string>
+    <string name="teleNumber">手机号码</string>
+    <string name="usernameSafty">账号安全</string>
+    <string name="msg">消息通知</string>
+    <string name="pracy">隐私</string>
+    <string name="tongyong">通用</string>
+    <string name="fuzhu">辅助功能</string>
+    <string name="mian">免流量特权</string>
+    <string name="about">关于QQ与帮助</string>
 </resources>

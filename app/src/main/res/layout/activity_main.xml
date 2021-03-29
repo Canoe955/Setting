@@ -1,20 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#f2f2f2"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f2f2f2"
+        android:paddingBottom="220dp"
         tools:ignore="MissingConstraints">
+        <include layout="@layout/activity_setting_top"/>
 
-
+        <TextView
+            style="@style/btnBg"
+            android:background="@drawable/drawable_selector"
+            android:layout_marginTop="15dp"
+            android:text="@string/username">
+        </TextView>
+        <TextView
+            style="@style/btnBg"
+            android:background="@drawable/drawable_selector"
+            android:onClick="onClick"
+            android:text="@string/teleNumber"
+            tools:ignore="OnClick">
+        </TextView>
+        <TextView
+            style="@style/btnBg"
+            android:background="@drawable/drawable_selector"
+            android:onClick="onClick"
+            android:text="@string/usernameSafty"
+            tools:ignore="OnClick">
+        </TextView>
+        <TextView
+            style="@style/btnBg"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/drawable_selector"
+            android:onClick="onClick"
+            android:text="@string/msg"
+            tools:ignore="OnClick">
+        </TextView>
+        <TextView
+            style="@style/btnBg"
+            android:background="@drawable/drawable_selector"
+            android:onClick="onClick"
+            android:text="@string/pracy"
+            tools:ignore="OnClick">
+        </TextView>
+        <TextView
+            style="@style/btnBg"
+            android:background="@drawable/drawable_selector"
+            android:onClick="onClick"
+            android:text="@string/tongyong"
+            tools:ignore="OnClick">
+        </TextView>
+        <TextView
+            style="@style/btnBg"
+            android:background="@drawable/drawable_selector"
+            android:onClick="onClick"
+            android:text="@string/fuzhu"
+            tools:ignore="OnClick">
+        </TextView>
+        <TextView
+            style="@style/btnBg"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/drawable_selector"
+            android:onClick="onClick"
+            android:text="@string/mian"
+            tools:ignore="OnClick">
+        </TextView>
+        <TextView
+            style="@style/btnBg"
+            android:background="@drawable/drawable_selector"
+            android:layout_marginTop="15dp"
+            android:onClick="onClick"
+            android:text="@string/about"
+            tools:ignore="OnClick">
+    </TextView>
     </LinearLayout>
-
-
-
-</android.support.constraint.ConstraintLayout>
+</ScrollView>
